@@ -10,15 +10,15 @@ export type Project = {
 };
 
 export const projects: Project[] = [
-  {
-    slug: "Education learning management system",
-    title: "Education learning management system",
-    description: "Developed a full-stack web application enabling users to sign up, sign in, and access a personalized dashboard with subject-wise materials. – Integrated Cloudinary and Telegram Bot API to upload, store, and securely deliver course materials in the LMS app, enabling both cloud-based and chat-based file access and storage. – Built a responsive React front-end with React Router for smooth and component-based navigation.",
-    tags: ["React", "Node.js", "MongoDB","Express", "Cloudinary", "Telegram Bot API"],
+   {
+    slug: "Fully Ready search engine optimized Ecommerce store",
+    title: "Fully Ready search engine optimized Ecommerce store",
+    description: "Developed a full-stack e-commerce web application using Next.js (React framework) with Server-Side Rendering (SSR) to improve SEO and performance. Integrated MongoDB Atlas for scalable cloud-based data storage and efficient product, user, and order management. Implemented Cloudinary CDN for optimized product image storage, transformation, and faster delivery. Built responsive UI/UX with Tailwind CSS/Next.js, ensuring cross-device compatibility.",
+    tags: ["Next.js", "Tailwind CSS", "MongoDB", "Cloudinary"],
     image: "",
-    githubUrl: "https://github.com/leelamanikumar/materialmate",
-    liveUrl: "https://materialmate-1.onrender.com/",
-    content: "This project helps the students to access the course materials and also the teachers to upload the materials to the cloud and also to the telegram bot.",
+    githubUrl: "https://github.com/leelamanikumar/ecom",
+    liveUrl: "https://ecomstore-9bc2.onrender.com/",
+    content: "Fully Ready search engine optimized Ecommerce store",
   },
   {
     slug: "Multi player Sudoku game",
@@ -39,7 +39,17 @@ export const projects: Project[] = [
     githubUrl: "https://github.com/leelamanikumar/hotelmanagement",
     liveUrl: "https://drive.google.com/file/d/1Jpq8Lc5iul10i0ldYn0Wtr6tGLqPaHsj/view?usp=sharing",
     content: "This project helps the people to scrap the business data from the google maps and save it to the google sheets",
-  }
+  },
+   {
+    slug: "Education learning management system",
+    title: "Education learning management system",
+    description: "Developed a full-stack web application enabling users to sign up, sign in, and access a personalized dashboard with subject-wise materials. – Integrated Cloudinary and Telegram Bot API to upload, store, and securely deliver course materials in the LMS app, enabling both cloud-based and chat-based file access and storage. – Built a responsive React front-end with React Router for smooth and component-based navigation.",
+    tags: ["React", "Node.js", "MongoDB","Express", "Cloudinary", "Telegram Bot API"],
+    image: "",
+    githubUrl: "https://github.com/leelamanikumar/materialmate",
+    liveUrl: "https://materialmate-1.onrender.com/",
+    content: "This project helps the students to access the course materials and also the teachers to upload the materials to the cloud and also to the telegram bot.",
+   }
 ];
 
 export function findProjectBySlug(slug: string): Project | undefined {
